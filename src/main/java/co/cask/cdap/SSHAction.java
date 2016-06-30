@@ -37,16 +37,6 @@ import java.util.Map;
 public class SSHAction extends AbstractWorkflowAction {
 
   private class SSHConfig {
-    private static final boolean DEFAULT_USE_PASSWORD_SSH = false;
-    private static final String DEFAULT_HOST = "10.150.2.127";
-    private static final int DEFAULT_PORT = 22;
-    private static final String DEFAULT_USER = "Kashif";
-    private static final String DEFAULT_PASSWORD = "";
-    private static final String DEFAULT_PRIVATE_KEY_FILE = "/Users/Kashif/.ssh/id_rsa";
-    private static final String DEFAULT_PRIVATE_KEY_PASSPHRASE = "";
-    private static final String DEFAULT_CMD = "cd logging && ./addSpammers.sh kashif@cask.co Kijoun@hotmail.com";
-
-
     // Server information
     private String host;
     private int port;
